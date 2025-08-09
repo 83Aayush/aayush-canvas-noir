@@ -37,14 +37,14 @@ export const About = () => {
             <div className="grid grid-cols-2 gap-4">
               <Card className="p-6 bg-gradient-secondary border-primary/20 hover:border-primary/40 transition-all duration-300 hover:shadow-glow">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-primary mb-2">2+</div>
+                  <div className="text-3xl font-bold text-primary mb-2">1</div>
                   <div className="text-muted-foreground text-sm">Years of Learning</div>
                 </div>
               </Card>
               
               <Card className="p-6 bg-gradient-secondary border-primary/20 hover:border-primary/40 transition-all duration-300 hover:shadow-glow">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-primary mb-2">10+</div>
+                  <div className="text-3xl font-bold text-primary mb-2">3</div>
                   <div className="text-muted-foreground text-sm">Projects Built</div>
                 </div>
               </Card>
