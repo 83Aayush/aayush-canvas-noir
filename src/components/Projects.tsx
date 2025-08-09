@@ -5,25 +5,9 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "AI-Powered Portfolio",
-    description: "A dynamic portfolio website showcasing the perfect blend of AI creativity and modern web development. Built with React, TypeScript, and cutting-edge design principles.",
-    tech: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    image: "/placeholder.svg",
-    github: "#",
-    live: "#"
-  },
-  {
-    title: "Smart Learning Platform",
-    description: "An intelligent learning management system that adapts to individual learning styles using machine learning algorithms.",
-    tech: ["Next.js", "Python", "TensorFlow", "PostgreSQL"],
-    image: "/placeholder.svg",
-    github: "#",
-    live: "#"
-  },
-  {
-    title: "Mobile Task Manager",
-    description: "A productivity app with AI-powered task prioritization and smart scheduling features for enhanced workflow management.",
-    tech: ["React Native", "Node.js", "MongoDB", "OpenAI API"],
+    title: "To-Do App",
+    description: "A clean and intuitive task management application with features like task creation, completion tracking, priority levels, and local storage persistence.",
+    tech: ["React", "TypeScript", "Tailwind CSS", "Local Storage"],
     image: "/placeholder.svg",
     github: "#",
     live: "#"
@@ -44,10 +28,10 @@ export const Projects = () => {
           </p>
         </AnimatedSection>
 
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8">
+        <div className="flex justify-center">
           {projects.map((project, index) => (
             <AnimatedSection key={project.title} delay={index * 300}>
-              <Card className="group overflow-hidden bg-gradient-secondary border-primary/20 hover:border-primary/40 transition-all duration-500 hover:shadow-glow hover:scale-105">
+              <Card className="group overflow-hidden bg-gradient-secondary border-primary/20 hover:border-primary/40 transition-all duration-500 hover:shadow-glow hover:scale-105 w-96 max-w-sm">
                 <div className="aspect-video bg-muted relative overflow-hidden">
                   <img 
                     src={project.image} 
