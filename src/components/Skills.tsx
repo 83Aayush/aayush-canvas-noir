@@ -1,6 +1,6 @@
 import { AnimatedSection } from "./AnimatedSection";
 import { Card } from "@/components/ui/card";
-import { Code2, Database, Palette, Smartphone, Globe, Brain } from "lucide-react";
+import { Code2, Database, Palette, Smartphone, Globe } from "lucide-react";
 
 const skills = [
   {
@@ -32,12 +32,6 @@ const skills = [
     title: "Web Technologies",
     description: "HTML5, CSS3, JavaScript",
     color: "from-orange-500 to-amber-500"
-  },
-  {
-    icon: Brain,
-    title: "AI & Machine Learning",
-    description: "TensorFlow, PyTorch, OpenAI",
-    color: "from-indigo-500 to-blue-500"
   }
 ];
 
